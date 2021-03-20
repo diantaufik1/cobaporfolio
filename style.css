@@ -1,0 +1,50 @@
+.jumbotron {
+  background-image: url("img/we.jpeg");
+  background-attachment: fixed;
+  background-size: cover;
+  height: 540px;
+  color: white;
+  padding-top: 150px !important;
+  overflow: hidden;
+}
+.jumbotron img {
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 1);
+}
+.jumbotron h2,
+.jumbotron p {
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 1);
+}
+#about .container {
+  padding-top: 30px;
+  overflow: hidden;
+}
+
+.kanan {
+  opacity: 0;
+  transform: translate(100px, 0) rotate(25deg);
+  transition: 5s;
+}
+.kanan.muncul {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+#project {
+  background-color: #d56bf0;
+}
+
+footer {
+  color: white;
+  font-size: 17px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+footer i {
+  font-size: 25px;
+}
+
+section {
+  padding-top: 40px;
+}
